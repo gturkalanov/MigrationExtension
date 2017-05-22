@@ -1,1 +1,1 @@
-# MigrationExtension
+# Behat MigrationExtension

@@ -1,0 +1,23 @@
+{
+  "name": "gtarkalanov/migration-extension",
+  "type": "behat-extension",
+  "description": "Behat extension for testing migration of content",
+  "keywords": ["drupal", "web", "test", "behat", "testing", "extension", "migration", "migrate", "content"],
+  "license": "GNU",
+  "authors": [{
+    "name": "George Tarkalanov",
+    "email": "g.turkalanov@gmail.com"
+  }],
+  "require": {
+    "behat/environment-loader": "1.*",
+    "behat/mink-extension": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "gtarkalanov\\MigrationExtension\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}

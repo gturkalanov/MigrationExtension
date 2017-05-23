@@ -55,7 +55,7 @@ class MigrationExtension implements Extension
     {
         $config = $builder->children();
 
-        foreach (['database_name', 'database_username', 'database_password'] as $param) {
+        foreach (['migration_map','source_type'] as $param) {
             $config->scalarNode($param)
                 ->end();
         }
